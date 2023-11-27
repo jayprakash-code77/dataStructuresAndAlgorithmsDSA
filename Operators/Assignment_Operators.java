@@ -1,4 +1,4 @@
-package Operators;
+package Data-Structure-and-Algorithms-DSA-; ;
 
 public class Assignment_Operators {
     public static void main(String[] args) {
