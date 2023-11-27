@@ -1,4 +1,5 @@
-package AllBinarySearch_Topics;
+package dataStructuresAndAlgorithmsDSA.AllBinarySearch_Topics;
+
 class BinarySearch {
     public static void main(String[] args) {
         // int evenArray []={1,2,3,4,5,6};

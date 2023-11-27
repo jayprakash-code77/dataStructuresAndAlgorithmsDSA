@@ -1,4 +1,5 @@
-// package Operators;
+package dataStructuresAndAlgorithmsDSA.Operators;
+
 public class Arithmetic_Operators {
     public static void main(String[] args) {
         /*

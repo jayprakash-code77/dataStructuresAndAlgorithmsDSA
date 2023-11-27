@@ -1,4 +1,4 @@
-// package Recursion;
+package dataStructuresAndAlgorithmsDSA.Recursion;
 
 public class Find_First_and_Last_Occurance {
     public static int first=-1;

@@ -1,5 +1,4 @@
 package dataStructuresAndAlgorithmsDSA.Recursion;
-// package Recursion;
 
 public class Array_Is_shorted_Or_Not {
 

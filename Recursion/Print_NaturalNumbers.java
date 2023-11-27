@@ -1,4 +1,4 @@
-// package Recursion;
+package dataStructuresAndAlgorithmsDSA.Recursion;
 
 public class Print_NaturalNumbers {
 

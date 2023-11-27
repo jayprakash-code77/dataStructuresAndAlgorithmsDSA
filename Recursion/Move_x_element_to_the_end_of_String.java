@@ -1,4 +1,4 @@
-// package Recursion;
+package dataStructuresAndAlgorithmsDSA.Recursion;
 
 public class Move_x_element_to_the_end_of_String {
 

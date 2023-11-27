@@ -1,5 +1,4 @@
 package dataStructuresAndAlgorithmsDSA.String;
-// package String;
 
 public class String_Builder {
     public static void main(String[] args) {

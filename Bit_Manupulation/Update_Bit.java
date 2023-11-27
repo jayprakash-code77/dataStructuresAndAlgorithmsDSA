@@ -1,5 +1,4 @@
-package Bit_Manupulation;
-// package Bit_Manupulation;
+package dataStructuresAndAlgorithmsDSA.Bit_Manupulation;
 
 public class Update_Bit {
     public static void main(String[] args) {

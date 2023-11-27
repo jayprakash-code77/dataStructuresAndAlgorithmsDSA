@@ -1,5 +1,5 @@
 package dataStructuresAndAlgorithmsDSA.Recursion;
-// package Recursion;
+
 public class Linear_Search {
 
 public static String isPresent(int[] Array, int Size, int element){
