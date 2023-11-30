@@ -20,7 +20,6 @@ public static void ptinyArray(int arr[]){
             }
             arr[j+1]=current;
             // System.out.println(arr[j+1]);
-            
         }
         ptinyArray(arr);
     }
