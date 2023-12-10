@@ -1,5 +1,5 @@
 package dataStructuresAndAlgorithmsDSA.LinkList;
-public class LinkList_Concepts {
+public class LinkList_Add_Concepts {
 Node head;
 private int size;
 
@@ -80,7 +80,7 @@ private int size;
         
         
         
-        LinkList_Concepts list=new LinkList_Concepts();
+        LinkList_Add_Concepts list=new LinkList_Add_Concepts();
         //  Operations of LinkList
 
         // 1) Add :- Two types of adding in LinkList a)Add first b)Add last
