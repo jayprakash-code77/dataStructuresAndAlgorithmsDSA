@@ -1,8 +1,8 @@
 package dataStructuresAndAlgorithmsDSA.ObjectOrientedProgramming;
 
 /*
- * Polymorphisms are of two type:- 1) Method overloading(Compile time polymorphism) 2) Method overriding(Run time polymorphism)
- * 
+ * Polymorphism :- Using one method for many work for with different parameters.
+ * Polymorphisms are of two type:- 1) Method overloading(Compile time polymorphism) 2) Method overriding(Run time polymorphism).
  */
 
 class Poly {
