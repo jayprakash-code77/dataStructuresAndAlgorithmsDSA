@@ -43,7 +43,7 @@ class College {
     String collegeName;
     int CollegeID;
     String owernerOfCollege;
-}
+}   
 
 // science department (extends College class)
 class ScienceDepartment extends College {
