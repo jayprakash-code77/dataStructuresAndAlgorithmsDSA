@@ -3,6 +3,7 @@ package dataStructuresAndAlgorithmsDSA.Recursion;
 import java.text.DecimalFormat;
 
 public class Calculate_Geometric_Sum {
+    
 
     // function to calculate Geometric sum.
     public static double calculateGeometricSum(double x, int n) {
