@@ -14,6 +14,6 @@ public static void towerOfHanoi(int n, String src, String helper, String dest){
 }
     public static void main(String[] args) {
         // function call
-        towerOfHanoi(2, "S", "H", "D");
+        towerOfHanoi(3, "S", "H", "D");
     }
 }
