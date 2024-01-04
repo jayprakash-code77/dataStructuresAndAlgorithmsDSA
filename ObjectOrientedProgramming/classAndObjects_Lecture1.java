@@ -1,7 +1,7 @@
 package dataStructuresAndAlgorithmsDSA.ObjectOrientedProgramming;
 
 /*
- * (this keyword):- this keyword tell tell's the "Functon" Or "Properties" that which object is "Calling" OR trying to "Access".
+ * (this keyword):- this keyword tell's the "Functon" Or "Properties" that which object is "Calling" OR trying to "Access".
  * 
  */
 
@@ -24,7 +24,7 @@ class Pen {
 }
 
 // Main class
-public class classAndObjects {
+public class classAndObjects_Lecture1 {
     public static void main(String[] args) {
         // Make objects of the pen class
         // object 1
