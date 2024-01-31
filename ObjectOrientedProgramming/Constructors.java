@@ -2,6 +2,7 @@ package dataStructuresAndAlgorithmsDSA.ObjectOrientedProgramming;
 
 /*
  * Constructors:- Used to construct the object of class.
+ * We can have 1 OR more Constructor of the same class.
  * Properties of Constructors:- 1) Constructor must have the same name as class name. 2) Constructors does not return anything and they don't have any return type. 3) Constructors are called only once for one object. 
  * Type of Constructors:- 1) Non paramiterized constructors:- No parameters
                           2) Paramiterized constructors:- Have parameters
@@ -40,8 +41,7 @@ class Student {
         this.age = s.age;
     }
 
-    // This constructor is just to make consctructors which are not copy
-    // constructor.
+    // This constructor is just to make object which is not the copy of any other object.
     Student() {
 
     }
