@@ -31,7 +31,7 @@ public class ArrayList_Concepts {
       // Add element in between the ArrayList
          nameList.add(1,2); // this will add the element at the index where we want.
          System.out.println(nameList);
-      // Set the element 
+      // Set the element =>  this will change the value of a particular index
          nameList.set(2, 7);
          System.out.println(nameList);
       // delete element
