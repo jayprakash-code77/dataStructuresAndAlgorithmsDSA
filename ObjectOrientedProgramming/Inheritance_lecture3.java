@@ -21,7 +21,7 @@ class Fruit {
     String fruitColor;
 }
 
-class Apple {
+class Apple extends Fruit{
     String fruitName;
 }
 
@@ -60,7 +60,7 @@ class ArtDepartment extends College {
 
 // 5) Multiple Inheritance (Impemented using "Interfaces")
 
-public class Inheritance {
+public class Inheritance_lecture3 {
     public static void main(String[] args) {
         Triangle t = new Triangle();
         t.color = "Red"; // triangle class has the color perperty which is due to inheritance.
