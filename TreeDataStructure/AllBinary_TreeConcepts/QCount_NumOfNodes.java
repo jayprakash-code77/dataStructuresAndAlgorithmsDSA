@@ -140,16 +140,14 @@ public class QCount_NumOfNodes {
 
         // function to convert 
                         
-        public void mirrorBinaryTree(Node root) {
-            // base case
-            if (root == null) {
-                return;
-            }
-
-            
+        // public void mirrorBinaryTree(Node root) {
+        //     // base case
+        //     if (root == null) {
+        //         return;
+    
 
 
-        }
+        // }
 
 
 
