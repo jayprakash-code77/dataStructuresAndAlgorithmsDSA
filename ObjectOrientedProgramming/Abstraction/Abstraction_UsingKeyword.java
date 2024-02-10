@@ -19,6 +19,7 @@ class Chicken extends Animal{
 
 public class Abstraction_UsingKeyword {
     public static void main(String[] args) {
+
         Hosre h = new Hosre();
         h.walk();
 

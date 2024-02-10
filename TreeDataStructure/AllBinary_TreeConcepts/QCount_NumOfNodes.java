@@ -145,10 +145,6 @@ public class QCount_NumOfNodes {
             if (root == null) {
                 return;
             }
-
-            
-
-
         }
 
 

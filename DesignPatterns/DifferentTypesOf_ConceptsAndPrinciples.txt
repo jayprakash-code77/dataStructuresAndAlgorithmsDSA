@@ -1,0 +1,4 @@
+
+1. Open/Closed Principle (OCP):- Classes/modules should be open for extension (allowing new functionality to be added) but closed for modification (existing code should not need to be changed). This promotes code reuse and minimizes the risk of unintended side effects when making changes.
+
+2. Single Responsibility Principle (SRP):- Each class/module should have only one responsibility or reason to change. This makes code easier to understand, maintain, and extend by keeping each component focused on a specific task.
