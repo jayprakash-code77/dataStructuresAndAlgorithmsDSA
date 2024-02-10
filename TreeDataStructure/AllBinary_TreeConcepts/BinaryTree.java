@@ -40,7 +40,7 @@ public class BinaryTree {
 
     // Binary Tree class >>>>>>>>>>>>>>>>>>>>>>>
     static class BT {
-        // index variable ot taravel on every index
+        // index variable to taravel on every index
         static int idx = -1;
 
         // build tree function
