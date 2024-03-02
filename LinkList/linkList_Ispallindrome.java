@@ -73,6 +73,7 @@ public class linkList_Ispallindrome {
 
         return true;
     }
+
     // function to find the middle node of the linklist 
     public Node findMiddle(Node head) {
         Node hare = head;
@@ -86,6 +87,8 @@ public class linkList_Ispallindrome {
         // return 
         return turtle;
     }
+
+    
     // reverse function of linklist
     public Node reverse(Node head) {
         Node pre = null;
@@ -108,10 +111,18 @@ public class linkList_Ispallindrome {
         list.addLast(1);
         list.addLast(2);
         list.addLast(1);
+        list.addLast(5);
         list.printList();
 
         // this will check weather the list is palindrome or not
-        System.out.println(list.isPalindrome(list.head));
+        // System.out.println(list.isPalindrome(list.head));
+        // System.out.println(list.findMiddle(list.head).data);
+
+
+        Node mid = list.findMiddle(list.head);
+        list.reverse(mid.next);
+        list.printList();
+
 
 
     }
