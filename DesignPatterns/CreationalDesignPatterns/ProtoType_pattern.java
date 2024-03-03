@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithmsDSA.DesignPatterns;
+
 
 interface Prototype {
     Car clone();
