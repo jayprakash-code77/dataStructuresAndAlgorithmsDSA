@@ -1,5 +1,7 @@
 package dataStructuresAndAlgorithmsDSA.DesignPatterns;
 
+
+
 // Singleton pattern
 
 // >>>>>>>>>>>>>>>>>   this class will not handle the multiple threads so we have to make the "synchronized" block

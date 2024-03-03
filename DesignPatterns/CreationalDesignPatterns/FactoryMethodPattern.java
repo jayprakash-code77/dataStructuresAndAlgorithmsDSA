@@ -1,5 +1,7 @@
 package dataStructuresAndAlgorithmsDSA.DesignPatterns;
 
+
+
 /*
  * Factory Method:-
  * 1) It is a Creational design pattern

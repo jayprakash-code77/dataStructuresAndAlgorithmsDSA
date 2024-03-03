@@ -1,0 +1,109 @@
+UML(Unified Modeling Language). = It is not a programming Language, but "it's a graphical notation" used to "Draw diagrams of an 'Object-Oriented system' ".
+
+Class and Object diagrams. 
+
+a) Association :- Association represents a relationship between two classes in which objects of one class are connected to objects of another class. This relationship can be one-way or two-way. It's often depicted as a line connecting the classes with or without arrows to indicate the direction of the relationship.
+Example of Association:- A Student class may be associated with a University class. The association can represent that a student attends a university. This association doesn't imply ownership or a specific lifecycle dependency.
+Think of association like a connection between two classes, but it's a loose connection. It's like saying Class A knows about Class B or uses Class B in some way, but they're not necessarily dependent on each other.
+
+[Class A] <-----> [Class B] :-  two-way association between Class A and Class B
+
+[Class A] ------> [Class B] :- one-way association, indicating that instances of Class A are associated with instances of Class B.
+
+Let's simplify the student and university example:
+
+Imagine you have two boxes: one labeled "Student" and the other labeled "University". Now, draw a line between them. This line represents the association. It's like saying students and universities are related somehow, but it doesn't mean one owns the other or can't exist without the other.
+
+So, in our example, a student can be associated with a university because they attend it. But if the university closes, the student can still exist. Likewise, if the student graduates, they might leave the university, but the university continues to function.
+
+Association is just acknowledging that there's some connection between the classes, but it's not a strong, dependent relationship. It's more like a friendly nod between them.
+
+
+
+
+b) Aggregation (Directional Association) :- It is a type of "Association" which has a relationship of "has-a" OR "wholw" OR "part".
+Aggregation:
+
+
+[Class A] -----◇ [Class B] :- 
+The diamond-shaped arrow pointing from `[Class A]` towards `[Class B]` represents an aggregation relationship between `Class A` and `Class B`.
+[Class A] is the "whole" or "container" class.
+[Class B] is the "part" or "contained" class.
+The diamond-shaped arrow (◇) indicates that instances of Class A contain or are composed of instances of Class B.
+Instances of Class B can exist independently of instances of Class A.
+
+
+
+
+Imagine you have a big container called "Department". Inside this container, you can put smaller containers labeled "Employee". Each small container represents a single employee.
+
+Now, the department "has" these employees because they work there. But here's the key: the employees can also exist outside of the department. They can work in different departments or even leave the company entirely.
+
+So, aggregation is like putting smaller containers inside a bigger container. The big container (department) "has" these smaller containers (employees), but the smaller containers can exist independently.
+
+Aggregation is a form of association where one class (the whole or container) contains objects of another class (the part or contained).
+The contained objects can exist independently of the container.
+It implies a "has-a" relationship, where the container class "has" instances of the contained class.
+The key distinction is that aggregation implies a stronger relationship than association, indicating that one class is a part of or belongs to the other class in some way.
+However, it's still a relatively loose relationship compared to composition.
+
+***To summarize, association is a general relationship between classes without implying any specific ownership or containment, while aggregation is a specific form of association where one class contains instances of another class, but those instances can exist independently.
+
+
+
+
+
+
+c)Composition (Restricted Aggregation) :- Composition is a stronger form of aggregation where the lifetime of the contained objects is tied to the lifetime of the container. In other words, if the container is destroyed, all its contained objects are also destroyed. Composition implies ownership and a "part-of" relationship.
+
+Example: A Car class may compose Engine, Wheel, and Chassis classes. When the car is destroyed, its components are also destroyed because they are integral parts of the car.
+
+[Class A] -----◆ [Class B] :- 
+The filled diamond-shaped arrow pointing from `[Class A]` towards `[Class B]` represents a composition relationship between `Class A` and `Class B`.
+[Class A] is the "whole" or "container" class.
+[Class B] is the "part" or "contained" class.
+The filled diamond-shaped arrow (◆) indicates that instances of Class A own instances of Class B, and the lifetimes of instances of Class B are dependent on instances of Class A.
+
+
+
+
+I am not going to college. For some reason and it's really  important when it come to 
+
+
+
+
+
+
+>>>Class diagrams :- Graphical representation of the classes i our system and the relationships the share.
+
+Each class have 3 sections and the different relationships between classes are shown by different ***AROWS*** :-
+1) Name of class
+2) Attributes
+3) Methods/behaviour
+
+
+Next to Attributes OR Methods we can add + Or - Or #
+1) "+" represents "public" access
+2) "-" represents "private" access
+3) "#" represents "Protected" access
+
+
+Example class representation
+        class Name
+        - 1 Attributes : String >>>After colon it's a return type;
+        - 2 Attributes : int = 0
+        # 3 Attributes : boolean
+
+        + 1 method(int, String) : int >>> After colon it's a return type; <<<
+        + 2 method() : double >>> After colon it's a return type;
+
+
+
+Types of AROWS :-
+1) A _________> B (simple arow). Meaning:- B extends A (B Inherites the proprties and methods of A)
+2) ---------> 
+
+
+
+
+
