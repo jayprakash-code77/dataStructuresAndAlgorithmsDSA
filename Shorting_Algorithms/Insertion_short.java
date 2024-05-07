@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithmsDSA.Shorting;
+package dataStructuresAndAlgorithmsDSA.Shorting_Algorithms;
 
 public class Insertion_short {
 

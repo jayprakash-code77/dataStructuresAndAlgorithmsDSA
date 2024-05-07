@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithmsDSA.Shorting;
+package dataStructuresAndAlgorithmsDSA.Shorting_Algorithms;
 
 class Bubble_Short {
     public static void printArray(int arr[]){
