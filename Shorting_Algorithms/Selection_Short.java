@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithmsDSA.Shorting;
+package dataStructuresAndAlgorithmsDSA.Shorting_Algorithms;
 
 public class Selection_Short {
     // function to print an array
