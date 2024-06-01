@@ -1,6 +1,6 @@
 package dataStructuresAndAlgorithmsDSA.ObjectOrientedProgramming;
 import java.util.*;
-class Student{
+class Students{
     public String name;
     public int age;
 }
@@ -10,10 +10,10 @@ public class StoringObject_InArray {
         
         // storing object in array.
         Scanner sc=new Scanner(System.in);
-        Student[] s1 = new Student[3];
-           
-        Student ob1 = new Student();
-        Student ob2 = new Student();
+        Students[] s1 = new Students[3];
+
+        Students ob1 = new Students();
+        Students ob2 = new Students();
 
         s1[0] = ob1;
         s1[1]= ob2;

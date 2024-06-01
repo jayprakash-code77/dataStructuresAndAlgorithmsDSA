@@ -2,7 +2,7 @@ package dataStructuresAndAlgorithmsDSA.StacksImplement;
 
 import java.util.ArrayList;
 
-class Stack {
+class Stac {
     private ArrayList<Integer> list = new ArrayList<>();
 
     // Public method to push() an element onto the stack
@@ -31,7 +31,7 @@ public class ImplementingStackWithArrayList {
 
     public static void main(String[] args) {
         // Access the stack using public methods
-        Stack stack = new Stack();
+        Stac stack = new Stac();
         stack.push(3);
         stack.push(7);
 

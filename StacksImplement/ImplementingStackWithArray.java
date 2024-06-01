@@ -56,7 +56,7 @@ class Stack {
 
 public class ImplementingStackWithArray {
     public static void main(String[] args) {
-        Stack stack = new Stack();
+        Stac stack = new Stac();
         stack.push(1);
         stack.push(2);
         stack.push(3);
