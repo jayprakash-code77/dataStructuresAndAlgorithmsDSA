@@ -9,10 +9,11 @@ public class Get_Bit {
         Step 2= Perform "AND" operation between Original number and Bit mask.
         */
 
-        int n=5;
-        int position=1; // position of bit that we want to find;
+        int n=5; //0101 in binary
+        int position=0; // position of bit that we want to find;
         int bit_Mask=1<<position;
-        int newNum= n | bit_Mask;
+        int newNum= bit_Mask & n  ;
         System.out.println(newNum);
+
     }
 }

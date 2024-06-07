@@ -11,8 +11,8 @@ public class Clear_Bit {
 
          */
 
-        int n=2;
-        int position=0;
+        int n=5;
+        int position=2;
         int bit_Mask=1<<position;
         int NegationOfBM= ~ bit_Mask;
         int ans=n & NegationOfBM;

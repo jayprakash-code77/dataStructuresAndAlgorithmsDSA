@@ -9,7 +9,7 @@ public class Set_Bit {
 
          */
 
-        int n=0;
+        int n=5;
         int position=1;
         int bit_Mask=1<<position;
         int ans= bit_Mask | n;
