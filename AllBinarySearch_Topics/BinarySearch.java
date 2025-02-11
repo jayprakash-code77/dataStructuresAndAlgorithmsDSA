@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithmsDSA.AllBinarySearch_Topics;
+// package dataStructuresAndAlgorithmsDSA.AllBinarySearch_Topics;
 
 class BinarySearch {
     public static void main(String[] args) {

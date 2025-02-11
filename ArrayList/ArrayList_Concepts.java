@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithmsDSA.ArrayList;
+package dataStructuresAndAlgorithmsDSA.ArrayList;//package dataStructuresAndAlgorithmsDSA.ArrayList;
 import java.util.ArrayList;
 import java.util.Collections;
 public class ArrayList_Concepts {
